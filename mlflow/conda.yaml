@@ -1,0 +1,15 @@
+name: rocket-ml-flow
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.9.7
+  - pip=21.2.4
+  - pip:
+      - mlflow==1.26.1
+      - scikit-learn==1.0.2
+      - numpy==1.22.3
+      - pandas==1.4.2
+      - matplotlib==3.6.3
